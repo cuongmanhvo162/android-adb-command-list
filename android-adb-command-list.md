@@ -33,3 +33,7 @@
 ### save logcat to file
 
 - adb logcat > "filename".txt
+
+### force stop everything associated with the app. Introduced in Honeycomb.
+
+- adb shell am force-stop "pacekage name"
