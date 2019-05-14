@@ -30,10 +30,10 @@
 
 - adb locat
 
-### save logcat to file
+### save logcat to file. While it running, use Ctrl+C  to stop the logging.
 
 - adb logcat > "filename".txt
 
-### force stop everything associated with the app. Introduced in Honeycomb.
+### force stop everything associated with the app. Introduced in Honeycomb. This will completely kill all associated AlarmManager, Service, Broadcast Receiver of the app.
 
 - adb shell am force-stop "pacekage name"
