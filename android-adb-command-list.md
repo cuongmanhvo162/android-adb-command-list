@@ -37,3 +37,23 @@
 ### force stop everything associated with the app. Introduced in Honeycomb. This will completely kill all associated AlarmManager, Service, Broadcast Receiver of the app.
 
 - adb shell am force-stop "pacekage name"
+
+**To check connected devices when ROM is running on phone:** 
+
+- adb devices
+
+**To boot into bootloader mode:** 
+
+- adb reboot bootloader
+
+**To check connected devices when in bootloader mode:** 
+
+- fastboot devices
+
+**To boot into ROM:**  
+
+- fastboot reboot
+
+**To boot into recovery:**  
+
+- fastboot reboot recovery
